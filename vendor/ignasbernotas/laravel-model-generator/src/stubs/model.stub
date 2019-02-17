@@ -1,0 +1,25 @@
+<?php
+
+namespace DummyNamespace;
+
+use {{extends}};
+
+/**
+ * Class DummyClass
+ */
+class DummyClass extends {{shortNameExtends}}
+{
+    {{table}}
+
+    {{primaryKey}}{{timestamps}}
+
+    {{fillable}}
+
+    {{guarded}}
+
+    {{getters}}
+
+    {{setters}}
+
+
+}

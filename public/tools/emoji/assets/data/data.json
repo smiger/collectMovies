@@ -1,0 +1,28 @@
+{
+    "success": "true",
+    "msg": "",
+    "list": [
+        {"type": "jgz","url": "jgz/1.jpg","title": "你是不是傻！"},
+        {"type": "jgz","url": "jgz/2.jpg","title": "下班了"},
+        {"type": "jgz","url": "jgz/3.jpg","title": "皮皮虾，我们走"},
+        {"type": "jgz","url": "jgz/4.jpg","title": "学校门口等你"},
+        {"type": "jgz","url": "jgz/5.jpg","title": "黑老子一跳！"},
+        {"type": "jgz","url": "jgz/6.jpg","title": "哦哟"},
+        {"type": "jgz","url": "jgz/7.jpg","title": "没事我先睡了"},
+        {"type": "jgz","url": "jgz/8.jpg","title": "约吗"},
+        {"type": "jgz","url": "jgz/9.jpg","title": "老子飞起就是一脚"},
+        {"type": "jgz","url": "jgz/10.jpg","title": "吓的老子头发都绿了"},
+        {"type": "jgz","url": "jgz/11.jpg","title": "写什么作业，来打LOL"},
+        {"type": "jgz","url": "jgz/12.jpg","title": "来人啊，有人吃药了"},
+        {"type": "jgz","url": "jgz/13.jpg","title": "保持微笑"},
+        {"type": "jgz","url": "jgz/14.jpg","title": "你等着"},
+        {"type": "jgz","url": "jgz/15.jpg","title": "围观"},
+        {"type": "jgz","url": "jgz/16.jpg","title": "记仇中"},
+        {"type": "jgz","url": "jgz/17.jpg","title": "我不听我不听"},
+        {"type": "jh","url": "jh/1.jpg","title": "就你了！"},
+        {"type": "jh","url": "jh/2.jpg","title": "我美吗"},
+        {"type": "zxy","url": "zxy/1.jpg","title": "管理 我要举报"},
+        {"type": "zxy","url": "zxy/2.jpg","title": "打死你个装B"},
+        {"type": "zxy","url": "zxy/3.jpg","title": "厉害了我的儿"}
+    ]
+}

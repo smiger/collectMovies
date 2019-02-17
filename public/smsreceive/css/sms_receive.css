@@ -1,0 +1,181 @@
+body {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+.sms_info_notice,.sms_info_ad{
+    margin: 2%;
+}
+.sms_info_ad_content{
+    margin: 0;
+}
+.container.sms-content-ad{
+    padding-left: 0;
+}
+
+.sms_info_graphics h2,.sms_info_graphics i{
+    display:inline-block;
+    margin: 0;
+}
+
+.sms_info_graphics{
+    position: relative;
+}
+.sms_info_graphics h2{
+    position: absolute;
+    top:8px;
+    left:64px;
+}
+
+.sms_info_list{
+    margin-top: 2%;
+}
+.number-list-flag{
+    overflow: hidden;
+    padding:1.5% 0 0 2%;
+}
+.number-list-flag h3{
+    display: inline-block;
+    top: 12px;
+    left: 128px;
+    position: absolute;
+}
+.number-list-info, .number-list-flag,.sms-number-read{
+    display: inline-block;
+}
+.number-list-info,.sms-number-read{
+    padding: 1% 2% 0 4%;
+}
+.number-list-info p{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.sms-number-list{
+    background-color: white;
+    border-radius: 5px;
+    margin: 3%;
+    position: relative;
+    overflow: hidden;
+}
+.sms-number-read {
+    padding: 10px 0 0 64px;
+}
+.sms-number-read b{
+    position: relative;
+    top: -12px;
+    left: 8px;
+}
+
+/* start SMSContent styles */
+.sms-content-ad{
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+
+.sms_content{
+    background-color: #4baad3;
+    padding: 3%;
+}
+
+.sms-content-list{
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+.sms-content-pager{
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 1%;
+}
+.sms-content-pager .btn-group{
+    margin: 0 auto;
+    display: block;
+}
+/* end SMSContent styles. */
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+.sms-content-pager .pagination{
+    margin: 0 auto;
+    display: block;
+}
+
+footer .navbar.navbar-default.copyright{
+    margin: 0;
+}
+
+.disabled{
+    pointer-events:none;
+}
+
+.sms_info_list nav ul li{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.number-list-flag picture{
+    text-align: center;
+}
+/*response styles start*/
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+    .number-list-flag,.number-list-info{
+        border-bottom: 1px solid #ccc;
+    }
+    .number-list-flag h3,.sms-number-read,.number-list-info p{
+        display: block;
+        text-align: center;
+        padding:0;
+        position: static;
+    }
+    .margin-3{
+        margin: 3% 0;
+    }
+    .number-list-flag picture{
+    text-align: center;
+    display: block;
+    }
+    .sms-content-pager{
+        width: 100%;
+    }
+    .sms-content-ad{
+        height: 70px;
+    }
+    .sms_info_ad.container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+/*response styles end*/
