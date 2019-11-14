@@ -6,6 +6,10 @@
 ###使用教程
 >[http://www.tengewang.cn/archives/363.html](http://www.tengewang.cn/archives/363.html)
 
+###本源码采集主要逻辑参考MACCMS开源项目
+>附上用MACCMS做的一个视频网站
+>[http://www.qbqp568.com/](http://www.qbqp568.com/)
+
 ###如果觉得有用欢迎star，谢谢！
 
 ###技术交流qq群：592148970
